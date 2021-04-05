@@ -31,9 +31,12 @@ namespace pertemuan5
 
         private void print_pesan(object sender, RoutedEventArgs e)
         {
-            var cbDipilih = makanan.Items.Cast<CheckBox>().Where(x => x.IsChecked == true).Select(x => x.Content).ToList();
+            var nama_makanan = new[] { "Nasi", "Ikan Gurame Bakar", "Cumi Asam Manis", "Tumis Kangkung", "Tahu Goreng", "Ayam Goreng"};
+            var harga_makanan = new[] { 5000, 60000, 45000, 15000, 5000, 12000 };
 
-            MessageBox.Show(string.Join(", ", cbDipilih));
+            var total_harga = makanan.Items.Cast<CheckBox>().Where(x => x.IsChecked == true).Select(x => harga_makanan[makanan.Items.IndexOf(x)]).Sum();
+
+            MessageBox.Show(string.Join(", ", total_harga));
         }
     }
 }
