@@ -1,0 +1,31 @@
+﻿<Window x:Class="pertemuan5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pertemuan5"
+        mc:Ignorable="d"
+        Title="Contoh Checkbox" Height="140" Width="250">
+    <StackPanel Margin="10">
+        <Label FontWeight="Bold">Hobi Anda</Label>
+        <CheckBox>
+            <TextBlock>
+                Membaca <Run Foreground="Green" FontWeight="Bold">Buku</Run>
+            </TextBlock>
+        </CheckBox>
+        <CheckBox>
+            <WrapPanel>
+            <TextBlock>
+                Bermain <Run FontWeight="Bold">Bulu Tangkis</Run>
+            </TextBlock>
+                <Image Source="D:\murial_2tid\BAD\pertemuan5\pertemuan5\pertemuan5\badmin.jpg" Width="16" Height="16" Margin="5,0"/>
+            </WrapPanel>
+        </CheckBox>
+        <CheckBox>
+            <TextBlock>
+                Belajar <Run Foreground="Blue" TextDecorations="Underline" FontWeight="Bold">Pemrograman</Run>
+            </TextBlock>
+        </CheckBox>
+    </StackPanel>
+   
+</Window>
