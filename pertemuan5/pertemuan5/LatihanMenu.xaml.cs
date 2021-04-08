@@ -24,11 +24,6 @@ namespace pertemuan5
             InitializeComponent();
         }
 
-        private void total_pesan(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void print_pesan(object sender, RoutedEventArgs e)
         {
             var nama_makanan = new[] { "Nasi", "Ikan Gurame Bakar", "Cumi Asam Manis", "Tumis Kangkung", "Tahu Goreng", "Ayam Goreng" };
