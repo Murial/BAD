@@ -28,9 +28,21 @@ namespace BelajarPassValue
         private void BtnKlik_Click(object sender, RoutedEventArgs e)
         {
             string nama = txtNama.Text;
-            string ttl = txtLahir.Text;
-            Hal2 hal = new Hal2(nama, ttl);
-            hal.Show();
+            string ttl = txtTtl.Text;
+            string usia = txtUsia.Text;
+            double tb = Double.Parse(txtTB.Text);
+            double bb = Double.Parse(txtBB.Text);
+            string jk = " ";
+            if (btLk.IsChecked == true)
+            {
+                jk = "Laki-laki";
+            }
+            else if (btPr.IsChecked == true)
+            {
+                jk = "Perempuan";
+            }
+            Hal2 h = new Hal2(nama, ttl, usia, tb, bb, jk);
+            h.Show();
         }
     }
 }
