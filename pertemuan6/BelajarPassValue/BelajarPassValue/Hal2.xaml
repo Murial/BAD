@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="Hal2" Height="450" Width="500">
     <Grid>
-        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,30,0,0" FontSize="24" FontWeight="Bold" FontFamily="Calibri">Info Anda</Label>
-        <TextBlock x:Name="txtHasil" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0" TextWrapping="Wrap" Text="Hasil" />
-        <TextBlock x:Name="txtBMI" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" TextWrapping="Wrap" Text="Status" />
+        <TextBlock x:Name="txtHasil" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   TextWrapping="Wrap" Text="Hasil"/>
     </Grid>
 </Window>

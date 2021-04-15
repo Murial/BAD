@@ -7,27 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="500">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" TextWrapping="Wrap" Text="Form BMI" FontSize="24" FontWeight="Bold" FontFamily="Calibri" />
-        <TextBlock HorizontalAlignment="Left" Margin="96,70,0,0" TextWrapping="Wrap" Text="Masukkan Nama" VerticalAlignment="Top" />
-        <TextBox x:Name="txtNama" HorizontalAlignment="Left" Height="23" Margin="200,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" />
+        <TextBlock HorizontalAlignment="Left" Margin="68,55,0,0" TextWrapping="Wrap" Text="Masukkan Nama"
+                   VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNama" HorizontalAlignment="Left" Height="23" Margin="200,55,0,0"
+                 TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="96,114,0,0" TextWrapping="Wrap" Text="Tempat Lahir" VerticalAlignment="Top" />
-        <TextBox x:Name="txtTtl" HorizontalAlignment="Left" Height="23" Margin="200,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" />
+        <TextBlock HorizontalAlignment="left" Margin="68,110,0,0" TextWrapping="Wrap" Text="Tempat Lahir"
+                   VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLahir" HorizontalAlignment="Left" Height="23" Margin="200,110,0,0"
+                 TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="96,157,0,0" TextWrapping="Wrap" Text="Usia" VerticalAlignment="Top" />
-        <TextBox x:Name="txtUsia" HorizontalAlignment="Left" Height="23" Margin="200,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" />
-
-        <TextBlock HorizontalAlignment="Left" Margin="96,200,0,0" TextWrapping="Wrap" Text="Tinggi Badan" VerticalAlignment="Top" />
-        <TextBox x:Name="txtTB" HorizontalAlignment="Left" Height="23" Margin="200,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" />
-
-        <TextBlock HorizontalAlignment="Left" Margin="96,244,0,0" TextWrapping="Wrap" Text="Berat Badan" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtBB" HorizontalAlignment="Left" Height="23" Margin="200,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" />
-
-        <Label HorizontalAlignment="Left" Margin="96,290,0,0" VerticalAlignment="Top">Jenis Kelamin</Label>
-        <RadioButton x:Name="btLk" Content="Laki-laki" HorizontalAlignment="Left" Margin="200,286,0,0"
-                     VerticalAlignment="Top" FontFamily="Calibri"/>
-        <RadioButton x:Name="btPr" Content="Perempuan" HorizontalAlignment="Left" Margin="200,306,0,0"
-                     VerticalAlignment="Top" />
-        <Button x:Name="btnKlik" Content="Submit" Height="30" Width="100" HorizontalAlignment="Center" Margin="0,300,0,0" Click="BtnKlik_Click" />
+        <Button x:Name="btnKlik" Content="Kirim Data" Height="30" Width="200" HorizontalAlignment="Center"
+                Click="BtnKlik_Click"/>
     </Grid>
 </Window>

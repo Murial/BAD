@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8E1B87D-C2B8-445C-98DD-222FCD842955}</ProjectGuid>
+    <ProjectGuid>{9AB2DE2E-B929-4031-BC16-D0066BA5DF87}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>BelajarPassValue</RootNamespace>
     <AssemblyName>BelajarPassValue</AssemblyName>

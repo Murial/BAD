@@ -19,41 +19,10 @@ namespace BelajarPassValue
     /// </summary>
     public partial class Hal2 : Window
     {
-        public Hal2(string nama, string ttl, string usia, double tb, double bb, string jk)
+        public Hal2(string nama, string ttl)
         {
             InitializeComponent();
-            string tampil_jk = "";
-            if (jk.Equals("Laki-laki"))
-            {
-                tampil_jk = "Laki-Laki";
-            }
-            else if (jk.Equals("Perempuan"))
-            {
-                tampil_jk = "Perempuan";
-            }
-
-
-            txtHasil.Text = "Hallo, Saya " + nama + "!\nSaya lahir di " + ttl + "!\nSaya berusia " + usia + "Tahun\n" +
-                "Tinggi : " + tb + "cm.\nBerat : " + bb + "kg.\nSaya seorang " + tampil_jk;
-
-            double total = bb / ((tb / 100) * (tb / 100));
-
-            if (total < 18.5)
-            {
-                txtBMI.Text = "Kalkulasi BMI : " + total + "\nStatus : Berat dibawah batas normal ";
-            }
-            else if (total > 18.5 && total < 24.9)
-            {
-                txtBMI.Text = "Kalkulasi BMI : " + total + "\nStatus : Berat Normal ";
-            }
-            else if (total > 25 && total < 29.9)
-            {
-                txtBMI.Text = "Kalkulasi BMI : " + total + "\nStatus : Kegemukan ";
-            }
-            else if (total > 30)
-            {
-                txtBMI.Text = "Kalkulasi BMI : " + total + "\nStatus : Obesitas ";
-            }
+            txtHasil.Text = "Halo " + nama + "!\nKamu lahir di " + ttl + " ya?";
         }
     }
 }
