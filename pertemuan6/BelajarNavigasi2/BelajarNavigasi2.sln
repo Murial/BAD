@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelajarNavigasi2", "BelajarNavigasi2\BelajarNavigasi2.csproj", "{DD0E30C3-31F6-41D0-9810-37369405ACA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD0E30C3-31F6-41D0-9810-37369405ACA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0E30C3-31F6-41D0-9810-37369405ACA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0E30C3-31F6-41D0-9810-37369405ACA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0E30C3-31F6-41D0-9810-37369405ACA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C85E2DF2-1443-4329-AC2F-30E0045E7C30}
+	EndGlobalSection
+EndGlobal
