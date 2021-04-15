@@ -1,0 +1,17 @@
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\bin\Debug\BelajarPassValue.exe.config
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\bin\Debug\BelajarPassValue.exe
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\bin\Debug\BelajarPassValue.pdb
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.csprojAssemblyReference.cache
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\Hal2.g.cs
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\MainWindow.g.cs
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\App.g.cs
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue_MarkupCompile.cache
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue_MarkupCompile.lref
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\Hal2.baml
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\MainWindow.baml
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.g.resources
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.Properties.Resources.resources
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.csproj.GenerateResource.cache
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.csproj.CoreCompileInputs.cache
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.exe
+D:\KARAJO KULIAH\SEMESTER 4\Bengkel Aplikasi Desktop\pertemuan6\BelajarPassValue1\BelajarPassValue\BelajarPassValue\obj\Debug\BelajarPassValue.pdb
