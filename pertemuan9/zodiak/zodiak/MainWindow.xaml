@@ -1,0 +1,77 @@
+﻿ <Window x:Class="zodiak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zodiak"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="497" Width="317">
+    <Grid Margin="20">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="110"/>
+            <ColumnDefinition Width="15"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.ColumnSpan="3" Grid.Row="0" FontWeight="Bold" FontSize="15" HorizontalAlignment="Center">MESIN RAMAL</Label>
+        
+        <StackPanel Grid.Row="1">
+            <Label>Tanggal Lahir</Label>
+            <Label>Bulan Lahir</Label>
+            <Label>Tahun Lahir</Label>
+            <Label Margin="0,20,0,0">Hasil Perhitungan</Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <TextBox Margin="4" Name="tanggal_lahir"></TextBox>
+            <TextBox Margin="4" Name="bulan_lahir"></TextBox>
+            <TextBox Margin="4" Name="tahun_lahir"></TextBox>
+            <TextBox Margin="4,24,4,0" Name="hasil" IsReadOnly="True"></TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label>:</Label>
+            <Label>:</Label>
+            <Label>:</Label>
+            <Label Margin="0,20,0,0">:</Label>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <Label>Hari lahir</Label>
+            <Label>Tanggal Lahir</Label>
+            <Label>Zodiak</Label>
+            <Label>Shio</Label>
+            <Label>Unsur</Label>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <Label>:</Label>
+            <Label>:</Label>
+            <Label>:</Label>
+            <Label>:</Label>
+            <Label>:</Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="2">
+            <Label  Name="hasil_hari" Content=""/>
+            <Label  Name="hasil_tanggal" Content=""/>
+            <Label  Name="hasil_zodiak" Content=""/>
+            <Label  Name="hasil_shio" Content=""/>
+            <Label  Name="hasil_unsur" Content=""/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center"> 
+            <Button Height="27" Width="80" Name="run" Click="proses">Proses</Button>
+        </StackPanel>
+        
+        
+    </Grid>
+</Window>
